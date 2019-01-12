@@ -1,4 +1,4 @@
-//TARGET-SUM-BY-2
+//TARGET-SUM-BY-2 (approach)
 import java.util.*;
 class TARGET_SUM_BY_2
 {
