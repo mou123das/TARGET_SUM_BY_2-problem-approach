@@ -5,24 +5,24 @@ public void print()
 {
 Scanner sc =new Scanner(System.in);
 System.out.println("ENTER THE LENGTH OF THE ARRAY");
-int n=sc.nextInt();
+int n=sc.nextInt();//Reading the length of the array
 int a[]=new int[n];
 int sum=0,i,j,m=0,n1=0,v=0,q=0,k;
 int b[]=new int[n];
-for(i=0;i<n;i++)
+for(i=0;i<n;i++)//Reading the elements
 {
 System.out.println("ENTER ELEMENT");
 a[i]=sc.nextInt();
 }
 System.out.println("ENTER THE INTEGER");
-int num=sc.nextInt();
+int num=sc.nextInt();//Reading the integer
 System.out.println(num+" is expressed as a sum of the followings: ");
 for(i=0;i<n;i++)
 {
 for(j=(i+1);j<n;j++)
 {
 sum=a[j]+a[i];
-if((sum==num))
+if((sum==num))//if sum is the number
 {
 m=a[i];
 n1=a[j];
