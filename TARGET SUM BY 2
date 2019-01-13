@@ -24,7 +24,6 @@ sum=a[j]+a[i];
 if((sum==num))//if sum is the number
 System.out.println(a[i]+" , "+a[j]);
 }
-sum=0;
 }
 }
 }
