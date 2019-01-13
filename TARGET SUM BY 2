@@ -29,7 +29,6 @@ System.out.println(m+" , "+n1);
 }
 }
 sum=0;
-v=0;
 }
 }
 }
