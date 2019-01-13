@@ -22,11 +22,7 @@ for(j=(i+1);j<n;j++)
 {
 sum=a[j]+a[i];
 if((sum==num))//if sum is the number
-{
-m=a[i];
-n1=a[j];
-System.out.println(m+" , "+n1);
-}
+System.out.println(a[i]+" , "+a[j]);
 }
 sum=0;
 }
